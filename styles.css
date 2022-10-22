@@ -1,0 +1,19 @@
+.welcome {
+    background-color: tan;
+    border-color: tan;
+}
+
+.products {
+    background-color: rgb(30, 173, 30);
+}
+
+.receipt {
+    background-color: tan;
+    border-color: tan;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.body {
+    background-color: tan;
+}

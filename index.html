@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./shoppingList.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class = "body">
+    <div class = "welcome" id = "welcome">
+        <h1>Welcome to the Sandwich Emporium!</h1>
+        <h2>Everything you need to make custom sandwiches in your own home! Please see our list of products:</h2>
+    </div>
+    <hr>
+    <div class = "products" id = "product-list">
+        <h3 class = "p">Loaf of Wheat Bread</h3><h3 class = "c">$5.00</h3><br> <!-- <h3 class = "q">Quantity:<input type="text" id="quantity-input"> -->
+            <button class = "qbs" onclick="addToCartA()">Add To Cart</button><br>
+        <h3 class = "p">Loaf of White Bread</h3><h3 class = "c">$4.00</h3><br>
+            <button class = "qbs" onclick="addToCartB()">Add To Cart</button><br>
+        <h3 class = "p">Jar of Peanut Butter: 40 oz.</h3><h3 class = "c">$3.50</h3><br>
+            <button class = "qbs" onclick="addToCartC()">Add To Cart</button><br>
+        <h3 class = "p">Jar of Jelly: 24 oz.</h3><h3 class = "c">$4.50</h3><br>
+            <button class = "qbs" onclick="addToCartD()">Add To Cart</button><br>
+        <h3 class = "p">Pack of Sliced Turkey: 30 oz.</h3><h3 class = "c">$5.50</h3><br>
+            <button class = "qbs" onclick="addToCartE()">Add To Cart</button><br>
+        <h3 class = "p">Pack of Sliced Ham: 30 oz.</h3><h3 class = "c">$5.25</h3><br>
+            <button class = "qbs" onclick="addToCartF()">Add To Cart</button><br>
+        <h3 class = "p">Head of Lettuce</h3><h3 class = "c">$2.00</h3><br>
+            <button class = "qbs" onclick="addToCartG()">Add To Cart</button><br>
+        <h3 class = "p">Tomato</h3><h3 class = "c">$1.25</h3><br>
+            <button class = "qbs" onclick="addToCartH()">Add To Cart</button><br></br>
+        <h3 class = "p">Pack of Cheese Slices: 20 oz.</h3><h3 class = "c">$4.25</h3><br>
+            <button class = "qbs" onclick="addToCartI()">Add To Cart</button><br>
+        <h3 class = "p">Squeeze Container of Mustard: 32 oz.</h3><h3 class = "c">$4.25</h3><br>
+            <button class = "qbs" onclick="addToCartJ()">Add To Cart</button>
+    </div>
+    <hr>
+    <div class = "receipt" id = "Receipt">
+        <button class = "qr" onclick="getReceipt()">Get Receipt</button>
+    </div>
+    <div id="total-price"></div>
+  </body>
+</html>
